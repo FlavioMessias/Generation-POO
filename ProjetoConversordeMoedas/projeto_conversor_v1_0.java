@@ -34,7 +34,7 @@ public class projeto_conversor_v1_0
 				op = leia.nextInt();
 			switch (op)
 			{
-				case 1: // real para outras moedas
+				case 1: // Real para outras moedas
 				{
 				System.out.println("\nDefina para qual moeda converter: "
 					+ "\n1-Dólar Americano"
@@ -128,7 +128,7 @@ public class projeto_conversor_v1_0
 					}
 				}
 				
-				case 2: // real para outras moedas
+				case 2: // Dolar Americano para outras moedas
 				{
 				System.out.println("\nDefina para qual moeda converter: "
 					+ "\n1-Dólar Americano"
@@ -767,6 +767,285 @@ public class projeto_conversor_v1_0
 							break;
 							}
 							case 10: // Dolar Australiano para Zloty Polonês
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,3.2262);
+							break;
+							}
+							default
+							{
+							System.out.println("\nEntre com uma opção valida!!!");
+							}
+						}
+					}
+				case 9: // Peso Mexicano para outras moedas
+				{
+					System.out.println("\nDefina para qual moeda converter: "
+						+ "\n1-Dólar Americano"
+						+ "\n2-Real"
+						+ "\n3-Euro"
+						+ "\n4-Libra Esterlina"
+						+ "\n5-Iene Japonês"
+						+ "\n6-Yuan Renminbi Chinês"
+						+ "\n7-Dolar Canadense"
+						+ "\n8-Dolar Australiano"
+						+ "\n9-Rublo Russo"
+						+ "\n10-Zloty Polonês");
+						PesoMxConvert = leia.nextInt();
+
+						switch (PesoMxConvert)
+						{
+							case 1: //Peso Mexicano para Dólar Americano
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,0.7104);
+							break;
+							}
+							case 2: //Peso Mexicano para Real
+							{
+							System.out.printf("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,3.6242);
+							break;	
+							}
+							case 3: // Peso Mexicano para Euro
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,0.5856);
+							break;
+							}
+							case 4: // Peso Mexicano para Libra
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,0.6449);
+							break;
+							}
+							case 5: // Peso Mexicano para Iene Japonês
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,94.8881);
+							break;
+							}
+							case 6: // Peso Mexicano para Yuan Renminbi Chinês
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,4.7899);
+							break;
+							}
+							case 7: // Peso Mexicano para Dolar Canadense
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,0.908);
+							break;
+							}
+							case 8: // Peso Mexicano para Dolar Australiano
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,14.1057);
+							break;
+							}
+							case 9: // Peso Mexicano para Rublo Russo
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,42.8016);
+							break;
+							}
+							case 10: // Peso Mexicano para Zloty Polonês
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,3.2262);
+							break;
+							}
+							default
+							{
+							System.out.println("\nEntre com uma opção valida!!!");
+							}
+						}
+					}
+				case 10: // Rublo Russo para outras moedas
+				{
+					System.out.println("\nDefina para qual moeda converter: "
+						+ "\n1-Dólar Americano"
+						+ "\n2-Real"
+						+ "\n3-Euro"
+						+ "\n4-Libra Esterlina"
+						+ "\n5-Iene Japonês"
+						+ "\n6-Yuan Renminbi Chinês"
+						+ "\n7-Dolar Canadense"
+						+ "\n8-Dolar Australiano"
+						+ "\n9-Peso Mexicano"
+						+ "\n10-Zloty Polonês");
+						RubloConvert = leia.nextInt();
+
+						switch (RubloConvert)
+						{
+							case 1: // Rublo Russo para Dólar Americano
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,0.7104);
+							break;
+							}
+							case 2: // Rublo Russo para Real
+							{
+							System.out.printf("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,3.6242);
+							break;	
+							}
+							case 3: // Rublo Russo para Euro
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,0.5856);
+							break;
+							}
+							case 4: // Rublo Russo para Libra
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,0.6449);
+							break;
+							}
+							case 5: // Rublo Russo para Iene Japonês
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,94.8881);
+							break;
+							}
+							case 6: // Rublo Russo para Yuan Renminbi Chinês
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,4.7899);
+							break;
+							}
+							case 7: // Rublo Russo para Dolar Canadense
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,0.908);
+							break;
+							}
+							case 8: // Rublo Russo para Dolar Australiano
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,14.1057);
+							break;
+							}
+							case 9: // Rublo Russo para Peso Mexicano
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,42.8016);
+							break;
+							}
+							case 10: // Rublo Russo para Zloty Polonês
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,3.2262);
+							break;
+							}
+							default
+							{
+							System.out.println("\nEntre com uma opção valida!!!");
+							}
+						}
+					}
+				case 11: // Zloty Polonês para outras moedas
+				{
+					System.out.println("\nDefina para qual moeda converter: "
+						+ "\n1-Dólar Americano"
+						+ "\n2-Real"
+						+ "\n3-Euro"
+						+ "\n4-Libra Esterlina"
+						+ "\n5-Iene Japonês"
+						+ "\n6-Yuan Renminbi Chinês"
+						+ "\n7-Dolar Canadense"
+						+ "\n8-Dolar Australiano"
+						+ "\n9-Peso Mexicano"
+						+ "\n10-Rublo Russo");
+						zlotyConvert = leia.nextInt();
+
+						switch (zlotyConvert)
+						{
+							case 1: // Zloty Polonês para Dólar Americano
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,0.7104);
+							break;
+							}
+							case 2: // Zloty Polonês para Real
+							{
+							System.out.printf("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,3.6242);
+							break;	
+							}
+							case 3: // Zloty Polonês para Euro
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,0.5856);
+							break;
+							}
+							case 4: // Zloty Polonês para Libra
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,0.6449);
+							break;
+							}
+							case 5: // Zloty Polonês para Iene Japonês
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,94.8881);
+							break;
+							}
+							case 6: // Zloty Polonês para Yuan Renminbi Chinês
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,4.7899);
+							break;
+							}
+							case 7: // Zloty Polonês para Dolar Canadense
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoDiv.setValor(leia.nextDouble());
+							conversaoDiv.conversaoDiv(conversaoDiv.valor,0.908);
+							break;
+							}
+							case 8: // Zloty Polonês para Dolar Australiano
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,14.1057);
+							break;
+							}
+							case 9: // Zloty Polonês para Peso Mexicano
+							{
+							System.out.println("\nEntre com valor a ser convertido: ");
+							conversaoMult.setValor(leia.nextDouble());
+							conversaoMult.conversaoMult(conversaoMult.valor,42.8016);
+							break;
+							}
+							case 10: // Zloty Polonês para Rublo Russo
 							{
 							System.out.println("\nEntre com valor a ser convertido: ");
 							conversaoDiv.setValor(leia.nextDouble());
